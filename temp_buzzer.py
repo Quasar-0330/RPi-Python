@@ -13,3 +13,6 @@ while True:
 	temp = re.sub("temp=|'C|\n", "", temp)
 	if float(temp) >= 70:
 		bz.on()
+		sleep(0.075)
+		ba.off()
+		sleep(0.075)
